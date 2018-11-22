@@ -1,0 +1,14 @@
+main: de.jeffclan.JeffPictureMaps.PictureMapsPlugin
+name: PictureMaps
+version: 2.1
+api-version: 1.13
+description: Prints pictures onto maps
+author: mfnalex
+prefix: PictureMaps
+database: false
+commands:
+  pic2map:
+    description: Prints a picture onto maps
+  debug:
+  pic2wall:
+    description: Hangs a picture on the wall
