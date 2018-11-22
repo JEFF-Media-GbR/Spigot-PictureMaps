@@ -93,10 +93,9 @@ public class PlayerListener implements Listener {
 			for (int x = 0; x < size.x; x++) {
 				
 				Block blockToSpawn = upperLeft.getRelative(BlockFace.DOWN, y).getRelative(direction, x);
-				//tmp.setType(Material.ITEM_FRAME);
 				ItemFrame itemFrame = blockToSpawn.getWorld().spawn(blockToSpawn.getLocation(),ItemFrame.class);
 				itemFrame.setFacingDirection(blockFace);
-				
+				itemFrame.setItem(arg0);
 				
 				
 			}
